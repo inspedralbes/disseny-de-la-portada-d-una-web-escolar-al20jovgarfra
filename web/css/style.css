@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto Condensed';
+  font-size: 16px;
 }
 
 body {
@@ -44,6 +46,23 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+/* TEXTS */
+
+/* La primera p despres de un h2 */
+h2+p{
+  text-indent: 20px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+
+/* LINKS */
 /* Color normal del link */
 a:link {
   color: #0084c5;
