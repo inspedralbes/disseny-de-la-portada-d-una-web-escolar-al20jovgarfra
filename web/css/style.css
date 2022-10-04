@@ -167,3 +167,15 @@ nav a{
   text-decoration: none;
 }
 
+/* GRAELLA */
+
+div{
+  background-color: #cbe7f5;
+  /* height: 100px; */
+}
+.wrapper{
+  background-color:#ee6c4d;
+  display: grid;
+  grid-template-columns:2fr 3fr;
+  gap: 50px;
+}
